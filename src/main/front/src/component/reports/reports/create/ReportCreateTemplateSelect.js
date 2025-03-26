@@ -24,6 +24,7 @@ function ReportCreateTemplateSelect() {
                     <section className={"sec"}>
                         <div className={"inner"}>
                             <div className={"item"}>
+
                                 <p className={"txt-a-r fs_lg"} onClick={() => navigate("/")} style={{cursor: "pointer"}}>X</p>
                             </div>
                             <input className={"input-txt mlr-a"} type="text" placeholder={"템플릿명"}></input>
